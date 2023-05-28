@@ -1,0 +1,97 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Hero section */
+  .hero {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #f2f2f2;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  /* Products section */
+  .products {
+    text-align: center;
+    
+    padding: 40px 0;
+  }
+  
+  .products h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .product {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+    padding: 20px;
+    margin: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .product img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
